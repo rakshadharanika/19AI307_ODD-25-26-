@@ -25,15 +25,14 @@ To write a Java program that demonstrates the use of variables, data types, oper
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement variables and Operators using Java
-Developed by: NIKSHITHA G
-Reg. No.: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
 ```
 
 ## Sourcecode.java:
-```
+```py
 import java.util.*;
 public class Main
 {
