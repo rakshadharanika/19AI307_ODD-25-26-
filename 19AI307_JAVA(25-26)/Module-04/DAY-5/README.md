@@ -1,4 +1,4 @@
-# Ex.No:4(D) DESIGN PATTERN  ---- BEHAVIOUR PATTERN
+# Ex.No:4(E) DESIGN PATTERN  ---- BEHAVIOUR PATTERN
 
 ## QUESTION:
 Design and implement a system using the Observer Design Pattern where multiple display devices update automatically when weather data changes.
