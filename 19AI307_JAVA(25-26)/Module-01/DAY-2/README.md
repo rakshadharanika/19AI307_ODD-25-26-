@@ -42,11 +42,11 @@ To write a Java program that uses conditional statements to determine the state 
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a conditional statement using Java
-Developed by: Nikshitha G
-RegisterNumber:  212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## Sourcecode.java:
