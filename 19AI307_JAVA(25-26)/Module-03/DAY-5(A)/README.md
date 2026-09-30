@@ -17,11 +17,10 @@ To demonstrate accessing an inner class from an outer class in Java.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a InnerClass using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: Raksha Dharanika V
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
