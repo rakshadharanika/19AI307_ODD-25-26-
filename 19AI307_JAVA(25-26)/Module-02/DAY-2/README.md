@@ -1,91 +1,63 @@
-# Ex.No:2(C) ACCESS SPECIFIERS
+# Ex.No:2(B) METHODS
 
 ## QUESTION:
-Write a Java program to create a class called Person with private instance variables name, age. and country. Provide public getter and setter methods to access and modify these variables.
+Write a method int cube(int x) that calls a method int square(int x) internally to calculate the cube as x * square(x).
 
 ## AIM:
-To write a Java program that defines a class Person with private instance variables name, age, and country, and to provide public getter and setter methods to access and modify these variables.
+To write a Java program that defines a method cube(int x) which internally calls another method square(int x) to compute the cube of a number using the formula: cube = x * square(x).
 
 ## ALGORITHM :
 1.	Start the program.
 2.	Import the necessary package 'java.util'
-3.	Create a class named Person.
-4. Declare private instance variables:</br>
-     - name (String)</br>
-     - age (int)</br>
-     - country (String)</br>
-5. Define public setter methods to assign values to each variable.
-6. Define public getter methods to retrieve the values of each variable.
-7. In the main method:</br>
-     - Create an object of the Person class.</br>
-     - Use setter methods to set name, age, and country.</br>
-     - Use getter methods to display the values.</br>
-8. End the program.
+3.	Create a method square(int x) that returns the value of x * x.
+4. Create another method cube(int x) that:</BR>
+     - Calls square(x)</BR>
+     - Multiplies the result by x</BR>
+     - Returns the final cube value.</BR>
+5. In the main method:</BR>
+     - Read or assign a value for x</BR>
+     - Call the cube(x) method</BR>
+6. Display the cube.
+7. End the program.
+
+
 
 
 ## PROGRAM:
  ```
-/*
-Program to implement a Access Specifiers using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+
+Program to implement a Methods using Java
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
+
 ```
 
 ## SOURCE CODE:
-```java
+```py
 import java.util.*;
-class Person
+public class Main
 {
-    private String name;
-    private int age;
-    private String country;  
-    public String getName()
+    static int square(int x)
     {
-        return name;
+        return x*x;
     }
-    public void setName(String name)
+    static int cube(int x)
     {
-        this.name = name;
+        return x*square(x);
     }
-    public int getAge()
-    {
-        return age;
-    }
-    public void setAge(int age)
-    {
-        this.age = age;
-    }
-    public String getCountry()
-    {
-        return country;
-    }
-    public void setCountry(String country)
-    {
-        this.country = country;
-    }
-}
-public class prog
-{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        Person obj = new Person();
-        obj.setName(sc.nextLine());
-        obj.setAge(sc.nextInt());
-        obj.setCountry(sc.nextLine());
-        System.out.println("Person 1");
-        System.out.println("Name: " + obj.getName());
-        System.out.println("Age: " + obj.getAge());
-        System.out.println("Country: " + obj.getCountry());
+        int n = sc.nextInt();
+        System.out.println(cube(n));
     }
 }
 ```
 
 
 ## OUTPUT:
-<img width="648" height="365" alt="image" src="https://github.com/user-attachments/assets/f3c1492f-5d1b-46b1-9d1d-726b7822232e" />
-
+<img width="282" height="90" alt="image" src="https://github.com/user-attachments/assets/0c98b161-ebf9-4ee6-92cc-084d1e4c1829" />
 
 ## RESULT:
-The program successfully creates a Person class with private variables and accesses them using getter and setter methods, demonstrating encapsulation in Java.
+The program successfully calculates the cube of a given number by calling the square() method from within the cube() method, demonstrating method calling and reuse in Java.
