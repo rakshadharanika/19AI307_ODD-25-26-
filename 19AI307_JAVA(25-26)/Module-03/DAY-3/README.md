@@ -34,11 +34,11 @@ To write a Java program using an abstract class GameScore with subclasses Arcade
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Abstraction using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
