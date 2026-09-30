@@ -50,7 +50,7 @@ RegisterNumber: 212223230167
 ```
 
 ## Sourcecode.java:
-```
+```py
 import java.util.*;
 public class Demo
 {
