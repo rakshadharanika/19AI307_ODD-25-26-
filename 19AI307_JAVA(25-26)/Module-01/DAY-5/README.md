@@ -20,11 +20,11 @@ To write a Java program that finds the absolute value of a given number using th
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Strings and Math Function using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 
