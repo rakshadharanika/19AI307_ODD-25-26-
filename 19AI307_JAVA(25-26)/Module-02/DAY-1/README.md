@@ -29,15 +29,15 @@ To define a class Car with attributes brand, color, and year; create two objects
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Class and Objects using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
-```
+```py
 import java.util.Scanner;
 
 class Car {
