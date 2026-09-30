@@ -41,7 +41,7 @@ To write a Java program that uses conditional statements to determine the state 
 12. End the program.
 
 ## PROGRAM:
- ```
+ ```py
 
 Program to implement a conditional statement using Java
 Developed by: V Raksha Dharanika
