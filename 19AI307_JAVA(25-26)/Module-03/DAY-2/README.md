@@ -17,11 +17,11 @@ To write a Java program that demonstrates method overriding using inheritance an
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Polymorphism using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
