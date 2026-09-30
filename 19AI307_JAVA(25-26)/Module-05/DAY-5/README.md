@@ -44,11 +44,11 @@ To write a Java program to swap two integer values using a synchronized block to
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Synchronization concept using Java
-Developed by: Nikshitha G
-RegisterNumber: 212223110031
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
