@@ -24,15 +24,15 @@ To write a Java program that reads an array of integers and finds the index of a
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Array concept using Java
-Developed by: Nikshitha G
-Register Number: 212223110031 
-*/
+Developed by: V Raksha Dharanika
+RegisterNumber: 212223230167
+
 ```
 
 ## SOURCE CODE:
-```
+```py
 import java.util.Scanner;
 
 public class Main {
